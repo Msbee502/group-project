@@ -1,18 +1,29 @@
 body {
-    width: 917px;
+    max-width: 1400px;
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 header {
     width: 100%;
-
+    width: 900px;
+    border-bottom: 2px;
+    border-color: #501C65;
 }
 
 .nav {
+    font-family: "Tajawal", system-ui;
+    font-weight: 400;
+    font-style: normal;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo {
