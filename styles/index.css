@@ -1,6 +1,7 @@
 body {
-    width: 917px;
+    max-width: 1400px;
     margin-top: 100px;
+    /* border: 2px solid black; */
 }
 
 header {
@@ -26,8 +27,76 @@ header {
     justify-content: space-around;
 }
 
-button {
-    height: 40px;
-    width: 80px;
 
+
+.small_images {
+    width: 576px;
+
+}
+
+.textbox {
+    width: 476px;
+    /* border: 2px solid #501C65; */
+}
+
+.title {
+    font-family: "Licorice", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+/* titles */
+
+p {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #878786;
+    line-height: 1.5;
+}
+/* standard text */
+
+.book_now {
+    width: 122px;
+    height: 56px;
+    background-color: #501C65;
+    font-family: "Tajawal", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0px 2px 6px #878786;
+    border: none;
+}
+/* book btn */
+
+.book_now:hover {
+    transform: scale(1.2);
+    background-color: #a240a5;
+}
+/* book btn */
+
+.book_now:active {
+    background-image: url(../images/index/bubbles.gif);
+}
+/* book btn */
+
+.container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid #501C65; */
+}
+
+.help_container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border: 2px solid #501C65; */
 }
