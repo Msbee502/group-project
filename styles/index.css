@@ -8,8 +8,7 @@ header {
     max-width: 1110px;
     width: 100%;
     margin: auto;
-    display: flex; 
-   
+    display: flex;    
     justify-content: space-around;  
 }
 
