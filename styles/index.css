@@ -8,22 +8,23 @@ header {
 
 }
 
-.nav-header {
+.nav {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .logo {
-    width: 125px;
+    width: 150px;
 }
 
 .ul-top {
     list-style: none;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 button {
