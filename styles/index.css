@@ -1,15 +1,16 @@
+
 header {
     margin: auto;
     width: 1400px;
     width: 100%;
-    height: 78px;
+    
 }
 .nav-header {
     max-width: 1110px;
     width: 100%;
     margin: auto;
     display: flex;    
-    justify-content: space-around;  
+    justify-content: center;  
 }
 
 .logo{
@@ -18,7 +19,11 @@ header {
 .ul-top{
     list-style: none;  
     display: flex;  
-    max-width: 350px;
     width: 100%;
     justify-content: space-around;
+}
+button{
+    height: 40px;
+    width: 80px ;
+    
 }
