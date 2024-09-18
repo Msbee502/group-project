@@ -7,16 +7,16 @@ body {
     align-items: center;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-}
-
 header {
     width: 100%;
     width: 900px;
-    border-bottom: 2px solid #501C65;    
+    border-bottom: 2px solid #501C65;  
+    display: flex;
+    justify-content: center;
+    position: sticky; 
+    Top: 0;
+    overflow: hidden;
+    background: white;
 }
 
 nav {
@@ -27,6 +27,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 a:visited {
@@ -66,34 +67,26 @@ a {
 
 .container-intro {
     width: 900px;
+    height: 900px;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
 }
-/*
 .imgpool {
-    display: inline-block;
-     margin: 25px 10px;
-}*/
+    vertical-align: top;
+    margin-top: 50px;
+}
 
 .textbox-intro {
-    width: 900px;
-       
-}
-/*.imgpool {
-    border: 2px solid black;
-}*/
-    
-/*.containertxtintro {
     text-align: center;
-    font-family: "Tajawal", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    width: 100%;
-    color: #501C65; */
+    width: 600px;
+    margin-top: 50px;
+          
+}
 
- .small_images {
+.small_images {
     width: 576px;
 }
  
