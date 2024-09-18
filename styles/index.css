@@ -1,6 +1,7 @@
 body {
     max-width: 1400px;
     margin-top: 100px; 
+    
 }
 
 .header {
@@ -23,6 +24,12 @@ header {
     align-items: center;
 }
 
+a:visited {
+    color: orange;
+}
+a:hover {
+    text-decoration: underline;
+}
 a {
     text-decoration: none;
     color: #501C65;
