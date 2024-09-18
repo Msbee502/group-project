@@ -1,21 +1,19 @@
 body {
-    min-width: 1400px;
+    width: 1400px;
     width: 100%;
     margin-top: 100px; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     /* border: 2px solid black; */
-    
 }
-
 
 .header {
     display: flex;
     justify-content: center;
     /* border: 2px solid black; */
 }
+
 header {
     width: 100%;
     width: 900px;
@@ -35,18 +33,19 @@ header {
 a:visited {
     color: orange;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 a {
     text-decoration: none;
     color: #501C65;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
 
 .logo {
-    width: 150px;
+    width: 175px;
 }
 
 .ul-top {
@@ -67,27 +66,29 @@ a {
 
 .container-intro {
     width: 900px;
-    border: 2px solid black;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
-.imgpool {
-    border: 2px solid black;
-}
+
+.textbox-intro {
+    width: 900px;
     
-.containertxtintro {
+}
+/*.imgpool {
+    border: 2px solid black;
+}*/
+    
+/*.containertxtintro {
     text-align: center;
     font-family: "Tajawal", system-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
     width: 100%;
-    /* color: #501C65; */
-} 
+    color: #501C65; */
 
  .small_images {
     width: 576px;
- 
 }
  
 .textbox {
@@ -102,6 +103,7 @@ a {
     font-size: 48px;
     margin-bottom: 30px;
     color: #501C65;
+    text-align: center;
 }
 /* titles */
  
