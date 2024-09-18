@@ -54,6 +54,7 @@ a {
     width: 100%;
     justify-content: space-evenly;
     align-items: flex-start;
+    
 }
 
 /* button {
@@ -66,13 +67,19 @@ a {
 
 .container-intro {
     width: 900px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
 }
+/*
+.imgpool {
+    display: inline-block;
+     margin: 25px 10px;
+}*/
 
 .textbox-intro {
     width: 900px;
-    
+       
 }
 /*.imgpool {
     border: 2px solid black;
