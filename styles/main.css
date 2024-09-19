@@ -96,7 +96,6 @@ p {
 .book_now {
     width: 122px;
     height: 56px;
-    margin: 2%;
     background-color: #501C65;
     font-family: "Tajawal", sans-serif;
     font-weight: bold;
@@ -112,14 +111,14 @@ p {
 /* book btn */
 
 .book_now:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: #a240a5;
 }
 
 /* book btn */
 
 .book_now:active {
-    background-image: url(../images/index/bubbles.gif);
+    background-image: url(../images/main/bubbles.gif);
 }
 
 /* book btn */
