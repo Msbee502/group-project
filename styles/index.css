@@ -113,6 +113,7 @@ p {
 .book_now {
     width: 122px;
     height: 56px;
+    margin: 2%;
     background-color: #501C65;
     font-family: "Tajawal", sans-serif;
     font-weight: bold;
