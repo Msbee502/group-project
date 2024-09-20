@@ -1,6 +1,6 @@
 .container-intro {
     width: 900px;
-    height: 900px;
+    height: 1000px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -27,20 +27,25 @@
   
 .container {
     width: 900px;
-    /* height: 500px; */
+    height: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
     border-top: 2px solid #501C65;
     /* border: 2px solid #501C65; */
 }
  
 .help_container {
     width: 900px;
-    /* height: 100px; */
+    height: 100px;
     display: flex;
     justify-content: center;
+    
     /* border: 2px solid #501C65; */
+}
+
+.btn_move {
+  position: relative;
+  top: -25px;
+  z-index: -1;
 }
