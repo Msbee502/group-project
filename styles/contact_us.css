@@ -35,6 +35,12 @@ section{
     line-height: 17px;
     color: #878786;
 }
+.general{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
 form {
     width: 800px;
     margin: 0 auto;
