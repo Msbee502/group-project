@@ -24,7 +24,7 @@ section{
 
 .info{
     padding-top: 30px;
-    width: 919px;
+    width: 800px;
     height: 85px;
     left: calc(50% - 919px/2 + 1.5px);
     top: 942px;
@@ -66,26 +66,32 @@ input, textarea {
 .row {
     display: flex;
     justify-content: space-between;
-}
-.row input {
-    width: 48%;
+    gap: 20px; 
 }
 
-button{
+.row input {
+    width: 50%;
+}
+
+.submit_now {
     width: 122px;
     height: 56px;
-    background-color: #501C65;
-    font-family: 'Tajawal';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #FFFFFF;
-    border: none;
     margin-bottom: 40px;
+    background-color: #501C65;
+    font-family: "Tajawal", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0px 2px 6px #878786;
+    border: none;
+    text-transform: uppercase;
 }
 
-.button:hover{
-    background: #a240a5;
+/* book btn */
+
+.submit_now:hover {
+    transform: scale(1.05);
+    background-color: #a240a5;
 }
