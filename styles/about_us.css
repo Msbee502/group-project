@@ -1,0 +1,29 @@
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 916px;
+    height: auto; 
+}
+
+.about_us_title {
+    margin-top: 30px;
+    font-family: 'Licorice', cursive ;
+    font-size: 48px;
+    text-align: center; 
+    color: #878786;
+}
+
+.about_us_info {
+    margin-top: 30px; 
+    width: 100%; 
+    max-width: 800px; 
+    font-family: 'Tajawal';
+    font-size: 14px;
+    line-height: 1.5; 
+    color: #878786;
+    text-align: left; 
+}
+
+
