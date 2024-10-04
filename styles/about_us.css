@@ -13,6 +13,9 @@
     font-size: 48px;
     text-align: center; 
     color: #878786;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
 .about_us_info {
@@ -21,9 +24,10 @@
     max-width: 800px; 
     font-family: 'Tajawal';
     font-size: 14px;
-    line-height: 1.5; 
+    line-height: 17px;
     color: #878786;
     text-align: left; 
+    margin-bottom: 100px;
 }
 
 
