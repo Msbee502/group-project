@@ -130,6 +130,12 @@ p {
 
 }
 
+.textbox-intro {
+    text-align: center;
+    width: 600px;
+    margin-top: 50px;
+          
+}
 /* book btn */
 
 footer {
