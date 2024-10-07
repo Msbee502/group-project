@@ -20,4 +20,7 @@ margin-top: 50px;
     width: 420px;
     margin-top: 25px;
 }
- 
+.textbox {
+    width: 420px;
+    /* border: 2px solid #501C65; */
+}
