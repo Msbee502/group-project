@@ -1,21 +1,9 @@
 .big_picture {
-margin-top: 50px;
+margin-top: 50px;  
 }
 
-.title {
-    margin-top: 40px;
-}
-
-.about_us_info {
-    margin-top: 30px; 
-    width: 100%; 
-    max-width: 800px; 
-    font-family: 'Tajawal';
-    font-size: 14px;
-    line-height: 17px;
-    color: #353535;
-    text-align: left; 
-    margin-bottom: 100px;
-}
-
+/* .container-intro {
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+} */
 
