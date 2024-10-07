@@ -104,3 +104,13 @@ h3{
     grid-row: 6/7;
     grid-column:4/5;
 }
+
+.help-container{
+    height: 160px;
+    position: relative;
+    top: 20px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
