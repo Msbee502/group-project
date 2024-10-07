@@ -1,4 +1,4 @@
-.heading{
+/* .heading{
     font-family: "Licorice", cursive;
     font-weight: 400;
     font-style: normal;
@@ -9,20 +9,11 @@
     margin-top: 50px;
     line-height: 60px;
     color: #353535;
-}
+} */
 
 .info{
-    text-align: center;
-    padding-top: 30px;
-    width: 800px;
-    height: 85px;
-    margin-bottom: 30px;
-    font-family: 'Tajawal'sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #353535;
+ width: 100%;
+ 
 }
 .general{
     display: flex;

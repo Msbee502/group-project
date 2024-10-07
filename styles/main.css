@@ -119,6 +119,17 @@ p {
     background-image: url(../images/main/bubbles.gif);
 }
 
+
+.container-intro {
+    width: 900px;
+    height: 1000px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 /* book btn */
 
 footer {
