@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/f656c8b170.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav>
@@ -32,24 +34,54 @@
         </nav>
     </header>
 
-<div class="container-intro">
-   
-         <img src="images/contact/spacontact.jpeg" alt="photo contact" class="big_picture">
-   
-    <div class="textbox-intro">
-        <h2 class="title">Connect With Us</h2>
-        <p>Our office is dedicated to protect the privacy 
-            rights of our patients and the confidential information 
-            entrusted to us. It is a requirement of this practice that every 
-            employee receive appropriate training and is dedicated to the principal 
-            concept that your health information shall never be compromised. We may,
-             from time to time, amend our privacy policies and practices but will always
-              inform you of any changes that might affect our obligations and your rights.
-        </p>
+    <div class="container-intro">
+
+        <img src="images/contact/spacontact.jpeg" alt="photo contact" class="big_picture">
+
+        <div class="textbox-intro">
+            <h2 class="title">Connect With Us</h2>
+            <p>Our office is dedicated to protect the privacy
+                rights of our patients and the confidential information
+                entrusted to us. It is a requirement of this practice that every
+                employee receive appropriate training and is dedicated to the principal
+                concept that your health information shall never be compromised. We may,
+                from time to time, amend our privacy policies and practices but will always
+                inform you of any changes that might affect our obligations and your rights.
+            </p>
+        </div>
     </div>
-</div>
-  
+
+    <form class="form" autocomplete="off">
  
+        <div class="row">
+
+            <div class="row2">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" required
+                    placeholder="Enter your first name">
+            </div>
+
+            <div class="row2">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name"  required
+                    placeholder="Enter your last name">
+            </div>
+
+        </div>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter the subject">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+
+        <div class="help_container">
+            <button type="submit" class="submit_now btn_move">Submit</button>
+        </div>
+    </form>
 
     <footer>
         <p class="footer_purple">OUR LOCATIONS </p>
@@ -67,4 +99,5 @@
         </div>
     </footer>
 </body>
+
 </html>

@@ -1,56 +1,44 @@
-/* .heading{
-    font-family: "Licorice", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 48px;
-    margin-bottom: 30px;
-    color: #501C65;
-    text-align: center;
-    margin-top: 50px;
-    line-height: 60px;
-    color: #353535;
-} */
 
-/* .info{
- width: 100%;
-
-} */
-.general{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
 form {
-    width: 800px;
-    margin: 0 auto;
-    font-family: 'Tajawal' sans-serif;
-    font-style: normal;
+    width: 900px;
+}
+
+label {
+
+    font-family: "Tajawal", sans-serif;
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #353535;
 }
-label {
-    display: block;
-    margin-bottom: 8px;
-}
+
 input, textarea {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #353535;
+
     width: 100%;
-    padding: 8px;
+   padding: 8px 0px 8px 0px;
     margin-bottom: 20px;
+    margin-top: 10px;
     background-color: #F5F5F5;
     border: 1px solid #501C65;
-    border-radius: 0px;
+  
 }
+
 .row {
+    width: 900px;
     display: flex;
     justify-content: space-between;
-    gap: 20px; 
 }
-.row input {
-    width: 50%;
+
+
+.row2{
+    width: 46%;
 }
+
 input:focus {
     background-color:#d2a4e3;
     border-color: #501C65; 
@@ -67,7 +55,7 @@ textarea:focus {
 .submit_now {
     width: 122px;
     height: 56px;
-    margin-bottom: 40px;
+
     background-color: #501C65;
     font-family: "Tajawal", sans-serif;
     font-weight: bold;
@@ -78,11 +66,23 @@ textarea:focus {
     box-shadow: 0px 2px 6px #878786;
     border: none;
     text-transform: uppercase;
+    position: relative;
+    bottom: 50px;
 }
 
-/* book btn */
+
 
 .submit_now:hover {
     transform: scale(1.05);
     background-color: #a240a5;
+}
+
+.help_container {
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    /* border: 2px solid #501C65; */
 }
