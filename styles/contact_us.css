@@ -8,7 +8,7 @@
     text-align: center;
     margin-top: 50px;
     line-height: 60px;
-    color: #878786;
+    color: #353535;
 }
 
 .info{
@@ -22,7 +22,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #878786;
+    color: #353535;
 }
 .general{
     display: flex;
@@ -38,7 +38,7 @@ form {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #878786;
+    color: #353535;
 }
 label {
     display: block;

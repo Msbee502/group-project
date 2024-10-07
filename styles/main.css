@@ -31,7 +31,7 @@ nav {
 }
 
 a:visited {
-    color: #878786;
+    color: #353535;
 }
 
 a:hover {
@@ -85,7 +85,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
-    color: #878786;
+    color: #353535;
     line-height: 1.5;
 }
 
@@ -138,7 +138,7 @@ footer {
 
 .footer_gray {
     font-size: 10px;
-    color: #878786;
+    color: #353535;
 }
 
 .sm_footer_container {
