@@ -1,21 +1,9 @@
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 916px;
-    height: auto; 
+.big_picture {
+margin-top: 50px;
 }
 
-.about_us_title {
-    margin-top: 30px;
-    font-family: 'Licorice', cursive ;
-    font-size: 48px;
-    text-align: center; 
-    color: #353535;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
+.title {
+    margin-top: 40px;
 }
 
 .about_us_info {
