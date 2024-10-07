@@ -1,19 +1,6 @@
-.container-intro {
-    width: 900px;
-    height: 1000px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 
-.textbox-intro {
-    text-align: center;
-    width: 600px;
-    margin-top: 50px;
-          
-}
+
 
 .small_images {
     width: 420px;

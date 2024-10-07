@@ -135,31 +135,7 @@ p {
     align-items: center;
 
 }
-.textbox-intro {
-    text-align: center;
-    width: 600px;
-    margin-top: 50px;
-          
-}
-.small_images {
-    width: 420px;
-    margin-top: 25px;
-}
- 
-.textbox {
-    width: 420px;
-    /* border: 2px solid #501C65; */
-}
-  
-.container {
-    width: 900px;
-    height: 500px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 2px solid #501C65;
-    /* border: 2px solid #501C65; */
-}
+
 /* book btn */
 
 footer {
