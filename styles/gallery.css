@@ -2,8 +2,9 @@
 {   display: grid;
     width: 900px;
     height: 640px;
+
     column-gap: 2px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3 ,1fr);
     margin-bottom: 40px;
